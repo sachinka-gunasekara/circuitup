@@ -59,7 +59,7 @@ export function Navbar() {
           <Image src={Logo} alt="Logo" width={200} height={50} />
         </Link>
         <button
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
           aria-expanded={isMobileMenuOpen}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
@@ -68,7 +68,7 @@ export function Navbar() {
         <div
           className={`${
             isMobileMenuOpen ? 'block' : 'hidden'
-          } w-full md:block md:w-auto`}
+          } w-full lg:block lg:w-auto`}
         >
           <ul className="font-medium flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0">
             {navLinks.map((item, index) => {

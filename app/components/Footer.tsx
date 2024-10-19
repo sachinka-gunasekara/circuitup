@@ -26,7 +26,7 @@ export function Footer() {
         <div className="flex flex-col sm:mt-0 mt-10">
             <div className='flex gap-2 sm:mb-8 mb-4'>
                 <h3 className='text-xl font-bold'>Sri Lanka</h3>
-                <Image src={Srilanka} alt="srilanka" width={20} height={10} />
+                <Image src={Srilanka} alt="srilanka" width={24} height={10} />
             </div>
 
             <div className='flex flex-col gap-1 text-[#a2a7b8]'>
