@@ -29,7 +29,7 @@ export function Footer() {
                 <Image src={Srilanka} alt="srilanka" width={20} height={10} />
             </div>
 
-            <div className='flex flex-col gap-1'>
+            <div className='flex flex-col gap-1 text-[#a2a7b8]'>
                 <h5 className='text-base'>CircuitUp Technology,</h5>
                 <h5 className='text-base'>12/4/D, Allubogahawatta,</h5>
                 <h5 className='text-base'>Wanduramulla,</h5>
@@ -44,20 +44,20 @@ export function Footer() {
                 <h3 className='text-xl font-bold'>Services</h3>
             </div>
 
-            <div className='flex flex-col gap-1'>
-                <Link href="/services/fleetManagement">
+            <div className='flex flex-col gap-1 text-[#a2a7b8]'>
+                <Link href="/services/pcb">
                     <h5 className='text-base cursor-pointer hover:text-blue-500'>PCB Design</h5>
                 </Link>
-                <Link href="/services/iot">
+                <Link href="/services/firmware">
                     <h5 className='text-base cursor-pointer hover:text-blue-500'>Firmware Development</h5>
                 </Link>
-                <Link href="/services/hardware">
+                <Link href="/services/webdev">
                     <h5 className='text-base cursor-pointer hover:text-blue-500'>Web Development</h5>
                 </Link>
-                <Link href="/services/telemetry">
+                <Link href="/services/desktopapp">
                     <h5 className='text-base cursor-pointer hover:text-blue-500'>Desktop Application</h5>
                 </Link>
-                <Link href="/services/softwareDevelopment">
+                <Link href="/services/manufacturing">
                     <h5 className='text-base cursor-pointer hover:text-blue-500'>Manufacturing</h5>
                 </Link>
             </div>
@@ -68,7 +68,7 @@ export function Footer() {
                 <h3 className='text-xl font-bold'>Learn more</h3>
             </div>
 
-            <div className='flex flex-col gap-1'>
+            <div className='flex flex-col gap-1 text-[#a2a7b8]'>
                 <Link href="/">
                     <h5 className='text-base cursor-pointer hover:text-blue-500'>Home</h5>
                 </Link>

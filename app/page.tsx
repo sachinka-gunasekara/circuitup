@@ -22,7 +22,7 @@ export default function Home() {
       <div className="relative min-h-screen">
         <div className="flex flex-col justify-between items-center gap-20 pt-40 pb-20 sm:flex-row">
           <div className="absolute inset-0 -z-10">
-            <video
+            {/* <video
               src="/assets/video8.mp4"
               autoPlay
               loop
@@ -30,7 +30,9 @@ export default function Home() {
               preload="none"
               playsInline
               className="w-full h-full object-cover"
-            />
+            /> */}
+             <img src="/assets/background.jpg" alt="Hero" className="absolute top-0 left-0 w-full h-full object-cover"/>
+             <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20"></div>
           </div>
           <div className="flex flex-col absolute top-0 bottom-0 left-0 right-0 w-full h-full justify-center items-center">
             <div className="font-bold text-5xl pb-5 text-start sm:text-center sm:text-7xl" data-aos="flip-left">CircuitUp, Where Innovation Knows No Boundaries</div>
