@@ -35,7 +35,7 @@ export default function Home() {
              <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
           </div>
           <div className="flex flex-col absolute top-0 bottom-0 left-0 right-0 w-full h-full justify-center items-start sm:p-20 lg:pr-60 p-10">
-            <div className="font-bold text-5xl pb-5 text-start lg:text-7xl" data-aos="flip-left">
+            <div className="font-bold text-5xl pb-5 text-start lg:text-7xl" data-aos="fade-right">
               <span className='text-blue-500'>CircuitUp</span>, Where Innovation Knows No Boundaries</div>
             <div className="text-2xl leading-[2.5rem] text-start" data-aos="flip-down">
               Circuit Up takes the lead in software development by specializing in the seamless integration of hardware with IoT platforms.
