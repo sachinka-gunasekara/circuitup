@@ -379,3 +379,93 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+
+
+// for connect with database
+
+// import React from 'react';
+// // Sample Data
+// const projects = [
+//   {
+//     id: 1,
+//     country: "For NZ",
+//     title: "REMOTE EV BATTERY DIAGNOSTIC TOOL",
+//     description: `This project was designed as a remote EV battery health 
+//       monitoring and diagnostic tool. CAN bus takes battery information and stores 
+//       it in an SD card. Whenever the user requests, the logged file will be uploaded 
+//       to the server using 4G.`,
+//     image: "/assets/projects/proj1.png",
+//   },
+//   {
+//     id: 2,
+//     country: "For AUS",
+//     title: "REMOTE EV DIAGNOSTIC TOOL",
+//     description: `Similar scope as remote EV battery diagnostic tool. 
+//       This was created to Monitor a truck's health using the 4 x CAN bus.`,
+//     image: "/assets/projects/proj2.png",
+//   },
+//   {
+//     id: 3,
+//     country: "For USA",
+//     title: "INDUSTRIAL IRRIGATION CONTROLLER",
+//     description: `Designed to control multiple irrigation gates based on time schedule. 
+//       The device contains TFT LCD and MPPT solar charger controller. Also, support control over WiFi.`,
+//     image: "/assets/projects/proj3.png",
+//   },
+// ];
+
+// const Portfolio = () => {
+//   return (
+//     <>
+//       <title>CircuitUp - Portfolio</title>
+//       <div className="min-h-screen">
+//         {/* Header Section */}
+//         <div className="text-center bg-slate-900 h-[65vh]">
+//           <div
+//             className="font-extrabold text-5xl pt-40 pb-20 text-slate-200 sm:text-7xl sm:pt-56 sm:pb-36 tracking-widest"
+//             data-aos="flip-left"
+//           >
+//             Portfolio
+//           </div>
+//         </div>
+
+//         {/* Portfolio Cards Section */}
+//         <div className="container mx-auto pt-20 pb-5">
+//           <div className="flex flex-wrap justify-center gap-8">
+//             {projects.map((project) => (
+//               <div
+//                 key={project.id}
+//                 className="flex flex-col basis-[300px] max-w-[400px] grow self-stretch hover:scale-95 duration-300"
+//               >
+//                 <div
+//                   className="flex flex-col items-center rounded-lg border-2 border-slate-700 text-slate-950 h-full"
+//                   data-aos="fade-right"
+//                 >
+//                   <div className="px-5 h-52 w-full">
+//                     <img
+//                       className="h-full w-full object-contain"
+//                       src={project.image}
+//                       alt="project thumbnail"
+//                     />
+//                   </div>
+//                   <div className="flex flex-col justify-start p-6 pt-0">
+//                     <div className="flex items-center w-full pb-1">
+//                       <h5 className="text-sm pr-2 font-bold text-[#969696]">
+//                         {project.country}
+//                       </h5>
+//                     </div>
+//                     <h5 className="mb-2 text-xl font-bold">{project.title}</h5>
+//                     <p className="mb-4 text-sm">{project.description}</p>
+//                   </div>
+//                 </div>
+//               </div>
+//             ))}
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
+
+// export default Portfolio;
