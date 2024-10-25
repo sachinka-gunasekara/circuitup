@@ -7,7 +7,7 @@ const AboutUs = () => {
     <>
     <title className=''>CircuitUp - About Us</title>
     <div className=''>
-        <div className='bg-slate-900 flex flex-col items-center pt-40 pb-20 sm:pt-56 h-[65vh]'>
+        <div className='bg-slate-900 flex flex-col items-center pt-40 pb-20 sm:pt-56 sm:h-[65vh] h-[50vh]'>
             <div className='font-extrabold text-5xl text-center flex flex-col justify-center sm:text-7xl md:flex-row' data-aos="flip-left">
               <span className='text-slate-200 pb-5 sm:pr-8 sm:pb-0 tracking-widest'>About</span>
               <span className='text-[#797fa2] tracking-widest'>CircuitUp</span>

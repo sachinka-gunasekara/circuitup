@@ -5,7 +5,7 @@ const Portfolio = () => {
     <>
       <title>CircuitUp - Portfolio</title>
       <div className="min-h-screen">
-        <div className=" text-center bg-slate-900 h-[65vh]">
+        <div className=" text-center bg-slate-900 sm:h-[65vh] h-[50vh]">
             <div className='font-extrabold text-5xl pt-40 pb-20 text-slate-200 sm:text-7xl sm:pt-56 sm:pb-36 tracking-widest'  data-aos="flip-left">Portfolio</div>   
         </div>
 

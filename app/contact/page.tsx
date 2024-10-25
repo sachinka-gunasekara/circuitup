@@ -13,24 +13,27 @@ const Contact = () => {
             </div>
         </div>
 
-        <div className='lg:container mx-auto flex lg:flex-row flex-col lg:justify-between sm:items-center sm:p-20 p-5 pb-10 text-justify text-[#5f5f5f]' data-aos="fade-up">
-         
+        <div className='lg:container mx-auto flex lg:flex-row flex-col lg:justify-between gap-5 sm:items-center sm:p-16 p-5 pb-10 text-justify text-[#5f5f5f]' data-aos="fade-up">
+
             <div className='flex flex-col flex-1 gap-5'>
 
-                <div className='flex items-center gap-6 min-h-[100px]'> 
-                    <div className='bg-slate-900 p-4 rounded-full h-fit'>
+                <div className='font-extrabold text-3xl text-start flex flex-col justify-center sm:text-6xl md:flex-row' data-aos="flip-left">
+                    <span className='text-slate-900 pb-5 sm:pr-8 sm:pb-0'>Get in touch today</span>
+                </div>
+
+                <div className='flex items-center gap-6 min-h-[100px] bg-[#f8f8f8] p-4 rounded-md'> 
+                    <div className='bg-slate-900 p-3 rounded-full h-fit'>
                         <Image src="/assets/home.png" alt="reactjs" width={25} height={25} />
                     </div>
                     <div className='flex flex-col'>
-                        <div className='text-lg font-extrabold'>Address</div>
-                        <div className='text-sm'>12/4/D,</div>
-                        <div className='text-sm'>Allubogahawatta, Panadura, </div>
+                        <div className='text-lg font-extrabold'>Location</div>
+                        <div className='text-sm'>12/4/D, Allubogahawatta, Panadura,</div>
                         <div className='text-sm'>Sri Lanka</div>
                     </div>
                 </div>
 
-                <div className='flex items-center gap-6 min-h-[100px]'> 
-                    <div className='bg-slate-900 p-4 rounded-full h-fit'>
+                <div className='flex items-center gap-6 min-h-[100px] bg-[#f8f8f8] p-4 rounded-md'> 
+                    <div className='bg-slate-900 p-3 rounded-full h-fit'>
                         <Image src="/assets/phone.png" alt="reactjs" width={25} height={25} />
                     </div>
                     <div className='flex flex-col'>
@@ -39,8 +42,8 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='flex items-center gap-6 min-h-[100px]'> 
-                    <div className='bg-slate-900 p-4 rounded-full h-fit'>
+                <div className='flex items-center gap-6 min-h-[100px] bg-[#f8f8f8] p-4 rounded-md'> 
+                    <div className='bg-slate-900 p-3 rounded-full h-fit'>
                         <Image src="/assets/email.png" alt="reactjs" width={25} height={25} />
                     </div>
                     <div className='flex flex-col'>

@@ -5,7 +5,7 @@ const Desktop = () => {
   return (
     <>
     <title className=''>CircuitUp - Desktop Application</title>
-    <div className="relative h-[65vh]">
+    <div className="relative sm:h-[65vh] h-[50vh]">
         <div className="flex flex-col justify-between items-center gap-20 sm:flex-row">
           <div className="absolute inset-0 -z-10">
              <img src="/assets/background.jpg" alt="Hero" className="absolute top-0 left-0 w-full h-full object-cover"/>

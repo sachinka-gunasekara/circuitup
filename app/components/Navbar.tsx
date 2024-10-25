@@ -54,7 +54,7 @@ export function Navbar() {
         isScrolled ? 'bg-slate-950 shadow-lg' : 'bg-transparent'
       }`}
     >
-      <div className="flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="flex flex-wrap items-center justify-between mx-auto p-4 sm:bg-transparent bg-slate-950">
         <Link href="/" className="flex items-center">
           <Image src={Logo} alt="Logo" width={200} height={50} />
         </Link>
