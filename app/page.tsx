@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import ServicesSection from './components/ServicesSection';
 import HeroServices from './components/HeroServices';
 import Link from 'next/link';
+// import Misson from './components/Misson';
 
 export default function Home() {
 
@@ -59,6 +60,7 @@ export default function Home() {
       </div>
       
       <HeroServices />
+      {/* <Misson /> */}
       <ServicesSection />
 
       <div className='flex sm:flex-row flex-col justify-around items-center bg-slate-900 my-14 py-10 px-5 sm:gap-0 gap-16'>
