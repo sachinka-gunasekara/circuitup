@@ -39,8 +39,8 @@ const Pcb = () => {
           </div>
 
           <div className='flex w-full lg:w-1/2 justify-evenly flex-wrap items-center gap-3 lg:gap-0 pt-5 lg:pt-0'>
-            <Image src="/assets/tech/kicad.png" alt="reactjs" width={120} height={64} className="h-16" />
-            <Image src="/assets/tech/altium.png" alt="nextjs" width={64} height={64} className="h-16" />
+            <Image src="/assets/tech/kicad.png" alt="reactjs" width={120} height={64} className=" " />
+            <Image src="/assets/tech/altium.png" alt="nextjs" width={64} height={64} className=" " />
           </div>
         </div>
 
@@ -53,7 +53,6 @@ const Pcb = () => {
             <div className="flex flex-col basis-[300px] max-w-[400px] grow self-stretch hover:scale-95 duration-300">
               <div
                 className="flex flex-col items-center rounded-lg border-2 border-slate-700 text-slate-950 h-full"
-                data-aos="fade-left"
               >
                 <div className="px-5 h-52 w-full">
                   <img
@@ -83,7 +82,6 @@ const Pcb = () => {
             <div className="flex flex-col basis-[300px] max-w-[400px] grow self-stretch hover:scale-95 duration-300">
               <div
                 className="flex flex-col items-center rounded-lg border-2 border-slate-700 text-slate-950 h-full"
-                data-aos="fade-left"
               >
                 <div className="px-5 h-52 w-full">
                   <img
@@ -114,7 +112,6 @@ const Pcb = () => {
             <div className="flex flex-col basis-[300px] max-w-[400px] grow self-stretch hover:scale-95 duration-300">
               <div
                 className="flex flex-col items-center rounded-lg border-2 border-slate-700 text-slate-950 h-full"
-                data-aos="fade-left"
               >
                 <div className="px-5 h-52 w-full">
                   <img

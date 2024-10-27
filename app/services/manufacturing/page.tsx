@@ -19,7 +19,7 @@ const Manufacturing = () => {
              <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
           </div>
 
-          <div className='flex justify-center w-full font-extrabold text-5xl px-5 pt-40 pb-20 text-slate-200 sm:text-7xl sm:pt-56 sm:pb-36 tracking-widest'  data-aos="zoom-in">Manufacturing</div>   
+          <div className='flex justify-center w-full font-extrabold text-5xl px-5 pt-40 pb-20 text-slate-200 sm:text-7xl sm:pt-56 sm:pb-36 sm:tracking-widest'  data-aos="zoom-in">Manufacturing</div>   
           
         </div>
     </div>
@@ -39,7 +39,7 @@ const Manufacturing = () => {
           </div>
 
           <div className='flex w-full lg:w-1/2 justify-evenly flex-wrap items-center gap-3 lg:gap-0 pt-5 lg:pt-0'>
-            <Image src="/assets/tech/csharp.png" alt="reactjs" width={80} height={80} className="h-16" />
+            <Image src="/assets/tech/csharp.png" alt="reactjs" width={80} height={80} className="" />
           </div>
         </div>
 

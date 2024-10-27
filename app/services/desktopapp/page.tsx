@@ -39,7 +39,7 @@ const Desktop = () => {
           </div>
 
           <div className='flex w-full lg:w-1/2 justify-evenly flex-wrap items-center gap-3 lg:gap-0 pt-5 lg:pt-0'>
-            <Image src="/assets/tech/csharp.png" alt="reactjs" width={80} height={80} className="h-16" />
+            <Image src="/assets/tech/csharp.png" alt="reactjs" width={80} height={80} className="" />
           </div>
         </div>
 
