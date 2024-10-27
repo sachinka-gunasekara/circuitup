@@ -17,7 +17,7 @@ const AboutUs = () => {
                 Learn More About Us In Numbers
             </div>
         </div>
-        <div className='container mx-auto flex flex-col justify-between items-center p-20 pb-10 text-justify text-[#5f5f5f]' data-aos="fade-up">
+        <div className='container mx-auto flex flex-col justify-between items-center p-10 sm:p-20 pb-10 text-justify text-[#bcbcbc]' data-aos="fade-up">
             <div className='text-base pb-5'>
             CircuitUp Technologies, a dynamic startup based in the vibrant landscape of Sri Lanka, established in 2019. 
             At CircuitUp, we take immense pride in offering top-notch turnkey electronic R&D services tailored to meet your specific needs. 
@@ -54,18 +54,18 @@ const AboutUs = () => {
             </div>
         </div> */}
 
-        <div className='flex sm:flex-row flex-col justify-around items-center bg-slate-300 mb-20 py-10 px-5 sm:gap-0 gap-16'>
+        <div className='flex sm:flex-row flex-col justify-around items-center mb-20 py-10 px-5 sm:gap-0 gap-16'>
             <div className="card w-64 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 ...">
                 <div className="card-body items-center text-center" data-aos="flip-right">
-                    <h2 className="text-7xl text-slate-800 font-bold card-title">100+</h2>
-                    <p className='text-2xl text-slate-800 font-bold'>Projects Completed</p>
+                    <h2 className="text-7xl text-slate-300 font-bold card-title">100+</h2>
+                    <p className='text-2xl text-slate-300 font-bold'>Projects Completed</p>
                 </div>
             </div>
 
             <div className="card w-64 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 ...">
                 <div className="card-body items-center text-center" data-aos="flip-right">
-                    <h2 className="text-7xl text-slate-800 font-bold card-title">50+</h2>
-                    <p className='text-2xl text-slate-800 font-bold'>Customers</p>
+                    <h2 className="text-7xl text-slate-300 font-bold card-title">50+</h2>
+                    <p className='text-2xl text-slate-300 font-bold'>Customers</p>
                 </div>
             </div>
 
@@ -93,7 +93,7 @@ const AboutUs = () => {
                   </div>
                 ))}
               </div>
-              <p className="text-2xl text-slate-800 font-bold">Overseas Projects</p>
+              <p className="text-2xl text-slate-300 font-bold">Overseas Projects</p>
             </div>
 
             </div>

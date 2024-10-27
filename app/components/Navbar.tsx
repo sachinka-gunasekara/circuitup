@@ -54,12 +54,12 @@ export function Navbar() {
         isScrolled ? 'bg-slate-950 shadow-lg' : 'bg-transparent'
       }`}
     >
-      <div className="flex flex-wrap items-center justify-between mx-auto p-4 sm:bg-transparent bg-slate-950">
+      <div className="container flex flex-wrap items-center justify-between mx-auto p-4 sm:bg-transparent bg-slate-950">
         <Link href="/" className="flex items-center">
           <Image src={Logo} alt="Logo" width={200} height={50} />
         </Link>
         <button
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
           aria-expanded={isMobileMenuOpen}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
@@ -70,13 +70,13 @@ export function Navbar() {
             isMobileMenuOpen ? 'block' : 'hidden'
           } w-full lg:block lg:w-auto`}
         >
-          <ul className="font-medium flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0">
+          <ul className="font-normal flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0">
             {navLinks.map((item, index) => {
               if (Array.isArray(item)) {
                 return (
                   <li key={index} className="relative group">
                     <button
-                      className="text-lg block py-3 px-3 text-slate-200 rounded md:hover:text-blue-700"
+                      className="text-lg block py-3 px-3 text-slate-200 rounded md:hover:text-[#33b4f4]"
                       onClick={toggleServicesDropdown}
                     >
                       {item[0].displayName}
@@ -103,11 +103,12 @@ export function Navbar() {
                       {item.slice(1).map((subItem, subIndex) => (
                         <li
                           key={subIndex}
-                          className="dropdown-item p-3 hover:bg-[#e9ebff]"
+                          className="dropdown-item hover:bg-[#e9ebff]"
                         >
                           <Link
                             href={`/${subItem.internalName}`}
                             onClick={handleSubpageClick}
+                            className='p-3 w-full inline-block'
                           >
                             {subItem.displayName}
                           </Link>
@@ -121,7 +122,7 @@ export function Navbar() {
                   <li key={index} className="list-none flex items-center">
                     <Link
                       href={`/${item.internalName}`}
-                      className="text-lg block py-2 px-3 text-slate-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+                      className="text-lg block py-2 px-3 text-slate-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#33b4f4]"
                       onClick={handleSubpageClick}
                     >
                       {item.displayName}

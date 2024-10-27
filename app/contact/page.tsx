@@ -18,37 +18,37 @@ const Contact = () => {
             <div className='flex flex-col flex-1 gap-5'>
 
                 <div className='font-extrabold text-3xl text-start flex flex-col justify-center sm:text-6xl md:flex-row' data-aos="flip-left">
-                    <span className='text-slate-900 pb-5 sm:pr-8 sm:pb-0'>Get in touch today</span>
+                    <span className='text-slate-300 pb-5 sm:pr-8 sm:pb-0'>Get in touch today</span>
                 </div>
 
-                <div className='flex items-center gap-6 min-h-[100px] bg-[#f8f8f8] p-4 rounded-md'> 
+                <div className='flex items-center gap-6 min-h-[100px] bg-[#01071A] border-slate-700 border-2 p-4 rounded-md'> 
                     <div className='bg-slate-900 p-3 rounded-full h-fit'>
                         <Image src="/assets/home.png" alt="reactjs" width={25} height={25} />
                     </div>
                     <div className='flex flex-col'>
-                        <div className='text-lg font-extrabold'>Location</div>
-                        <div className='text-sm'>12/4/D, Allubogahawatta, Panadura,</div>
-                        <div className='text-sm'>Sri Lanka</div>
+                        <div className='text-lg font-extrabold text-slate-300'>Location</div>
+                        <div className='text-sm text-[#bcbcbc]'>12/4/D, Allubogahawatta, Panadura,</div>
+                        <div className='text-sm text-[#bcbcbc]'>Sri Lanka</div>
                     </div>
                 </div>
 
-                <div className='flex items-center gap-6 min-h-[100px] bg-[#f8f8f8] p-4 rounded-md'> 
+                <div className='flex items-center gap-6 min-h-[100px] bg-[#01071A] border-slate-700 border-2 p-4 rounded-md'> 
                     <div className='bg-slate-900 p-3 rounded-full h-fit'>
                         <Image src="/assets/phone.png" alt="reactjs" width={25} height={25} />
                     </div>
                     <div className='flex flex-col'>
-                        <div className='text-lg font-extrabold'>Phone Number</div>
-                        <div className='text-sm'>+94 77 836 8435</div>
+                        <div className='text-lg font-extrabold text-slate-300'>Phone Number</div>
+                        <div className='text-sm text-[#bcbcbc]'>+94 77 836 8435</div>
                     </div>
                 </div>
 
-                <div className='flex items-center gap-6 min-h-[100px] bg-[#f8f8f8] p-4 rounded-md'> 
+                <div className='flex items-center gap-6 min-h-[100px] bg-[#01071A] border-slate-700 border-2 p-4 rounded-md'> 
                     <div className='bg-slate-900 p-3 rounded-full h-fit'>
                         <Image src="/assets/email.png" alt="reactjs" width={25} height={25} />
                     </div>
                     <div className='flex flex-col'>
-                        <div className='text-lg font-extrabold'>Email</div>
-                        <div className='text-sm'>yashodha@circuitup.lk</div>
+                        <div className='text-lg font-extrabold text-slate-300'>Email</div>
+                        <div className='text-sm text-[#bcbcbc]'>yashodha@circuitup.lk</div>
                     </div>
                 </div>
 

@@ -50,56 +50,56 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="max-w-xl mx-auto p-8 bg-[#f8f8f8] shadow-md rounded-md">
-      <h2 className="text-2xl font-bold mb-4 text-center text-gray-800">Contact Us</h2>
+    <div className="max-w-xl mx-auto p-8 bg-[#01071a] border-2 border-slate-700 shadow-md rounded-md">
+      <h2 className="text-2xl font-bold mb-4 text-center text-slate-300">Contact Us</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label className="block text-sm font-medium text-gray-700">Name</label>
+          <label className="block text-sm font-medium text-[#bcbcbc]">Name</label>
           <input
             type="text"
             name="name"
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full mt-1 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            className="w-full mt-1 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-[#01071a] border-slate-700"
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700">Email</label>
+          <label className="block text-sm font-medium text-[#bcbcbc]">Email</label>
           <input
             type="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full mt-1 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            className="w-full mt-1 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-[#01071a] border-slate-700"
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700">Subject</label>
+          <label className="block text-sm font-medium text-[#bcbcbc]">Subject</label>
           <input
             type="text"
             name="subject"
             value={formData.subject}
             onChange={handleChange}
             required
-            className="w-full mt-1 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            className="w-full mt-1 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-[#01071a] border-slate-700"
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-gray-700">Message</label>
+          <label className="block text-sm font-medium text-[#bcbcbc]">Message</label>
           <textarea
             name="message"
             value={formData.message}
             onChange={handleChange}
             required
             rows={4}
-            className="w-full mt-1 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400"
+            className="w-full mt-1 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-400 bg-[#01071a] border-slate-700"
           ></textarea>
         </div>
         <button
           type="submit"
-          className="w-full bg-slate-900  text-white py-2 px-4 rounded-md hover:bg-slate-600  focus:outline-none focus:ring-2 focus:ring-blue-950"
+          className="w-full bg-[#33b4f4] text-white py-2 px-4 rounded-md hover:bg-slate-600  focus:outline-none focus:ring-2 focus:ring-blue-950"
         >
           Send
         </button>

@@ -5,9 +5,9 @@ import Image from 'next/image'
 const ServicesSection = () => {
   return (
     <div className='container flex flex-col justify-between items-center pt-16'>
-    <div className='font-extrabold text-5xl pb-10 text-[#0d2841]' data-aos="fade-up">Why Us?</div>
+    <div className='font-extrabold text-5xl pb-10 text-slate-200' data-aos="fade-up">Why Us?</div>
 
-    <div className='grid gap-10 md:grid-cols-2 lg:grid-cols-3 w-full'>
+    <div className='grid gap-10 md:grid-cols-2 lg:grid-cols-3 w-full px-4'>
 
       <div className="" data-aos="fade-right"  data-aos-delay="0">
         <div className='w-auto h-auto flex flex-col items-start'>
@@ -21,8 +21,8 @@ const ServicesSection = () => {
           />
         </div>
           <div className="items-start pb-5">
-            <h2 className="text-2xl font-bold py-5 text-[#0d2841]">Expertise</h2>
-            <div className='text-lg leading-[1.8rem] text-[#5f5f5f]'>
+            <h2 className="text-2xl font-bold py-5 text-slate-200">Expertise</h2>
+            <div className='text-lg leading-[1.8rem] text-[#bcbcbc] font-light'>
             Though we are a startup, our team consists of skilled engineers and industry experts with a deep understanding of PCB design, hardware development, and firmware integration.
             We take pride in staying up-to-date with the latest industry trends and design practices, ensuring you receive solutions that meet current market demands.
             </div>
@@ -42,8 +42,8 @@ const ServicesSection = () => {
           />
         </div>
           <div className="items-start pb-5">
-            <h2 className="text-2xl font-bold py-5 text-[#0d2841]">End-to-End Solutions</h2>
-            <div className='text-lg leading-[1.8rem] text-[#5f5f5f]'>
+            <h2 className="text-2xl font-bold py-5 text-slate-200">End-to-End Solutions</h2>
+            <div className='text-lg leading-[1.8rem] text-[#bcbcbc] font-light'>
             We specialize in delivering all-in-one solutions from initial concept and design, to prototyping, testing, and final manufacturing.
             This comprehensive approach saves you the hassle of managing multiple vendors and ensures seamless project execution, with faster iterations and quicker time-to-market.
             </div>
@@ -63,8 +63,8 @@ const ServicesSection = () => {
           />
         </div>
           <div className="items-start pb-5">
-            <h2 className="text-2xl font-bold py-5 text-[#0d2841]">Innovative Technology</h2>
-            <div className='text-lg leading-[1.8rem] text-[#5f5f5f]'>
+            <h2 className="text-2xl font-bold py-5 text-slate-200">Innovative Technology</h2>
+            <div className='text-lg leading-[1.8rem] text-[#bcbcbc] font-light'>
             We embrace the latest technologies to create future-ready products from IoT systems to smart hardware solutions.
             With a startup mindset, we are always ready to experiment, innovate, and pivot, ensuring our clients get creative, scalable solutions aligned with future industry needs.
             </div>

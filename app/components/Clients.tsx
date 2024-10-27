@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Clients = () => {
   return (
-    <div className='container mx-auto flex flex-col justify-between items-center pb-10'>
+    <div className='mx-auto flex flex-col justify-between items-center pb-10 bg-slate-300 p-10'>
         <div className='font-bold text-4xl text-[#000319]'>Featured Clients</div>
         <div className='flex flex-wrap justify-center gap-8'>
         <Image
