@@ -54,7 +54,7 @@ export function Navbar() {
         isScrolled ? 'bg-slate-950 shadow-lg' : 'bg-transparent'
       }`}
     >
-      <div className="container flex flex-wrap items-center justify-between mx-auto p-4 sm:bg-transparent bg-slate-950">
+      <div className="lg:container flex flex-wrap items-center justify-between mx-auto p-4 lg:bg-transparent bg-slate-950">
         <Link href="/" className="flex items-center">
           <Image src={Logo} alt="Logo" width={200} height={50} />
         </Link>
@@ -70,7 +70,7 @@ export function Navbar() {
             isMobileMenuOpen ? 'block' : 'hidden'
           } w-full lg:block lg:w-auto`}
         >
-          <ul className="font-normal flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0">
+          <ul className="font-normal flex flex-col lg:flex-row lg:space-x-8 mt-4 md:mt-0">
             {navLinks.map((item, index) => {
               if (Array.isArray(item)) {
                 return (
