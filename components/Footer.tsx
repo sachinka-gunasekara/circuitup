@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo from '../../public/assets/logo.png';
-import Linkedin from '../../public/assets/linkedin.png';
-import Facebook from '../../public/assets/fb.png';
-import Srilanka from '../../public/assets/srilanka.png';
+import Logo from '../public/assets/logo.png';
+import Linkedin from '../public/assets/linkedin.png';
+import Facebook from '../public/assets/fb.png';
+import Srilanka from '../public/assets/srilanka.png';
 import React from 'react';
+import './style.css';
 
 export function Footer() {
 
@@ -14,7 +15,7 @@ export function Footer() {
         <div className='container flex flex-wrap sm:flex-row flex-col justify-between mx-auto p-10 pb-5 '>
         <div className="flex flex-col">
             <Link href="/" className="flex items-center mb-8">
-            <Image src={Logo} alt="Logo" width={200} height={50} />
+            <Image src={Logo} alt="Logo" width={200} height={50} className='company_logo'/>
             </Link>
             <h3>Follow us on</h3>
             <div className='flex gap-3 mt-3'>

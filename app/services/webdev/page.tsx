@@ -1,7 +1,14 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 
 const Webdev = () => {
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
+  
   return (
     <>
     <title className=''>CircuitUp - Web Development</title>

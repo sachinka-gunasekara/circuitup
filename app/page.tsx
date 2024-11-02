@@ -5,10 +5,10 @@ import Image from 'next/image'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import ServicesSection from './components/ServicesSection';
-import HeroServices from './components/HeroServices';
+import ServicesSection from '../components/ServicesSection';
+import HeroServices from '../components/HeroServices';
 import Link from 'next/link';
-import Misson from './components/Misson';
+import Misson from '../components/Misson';
 
 export default function Home() {
 
@@ -18,6 +18,12 @@ export default function Home() {
       easing: 'ease-in-out',
   });
   }, []);
+
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
+
 
   return (
     <>

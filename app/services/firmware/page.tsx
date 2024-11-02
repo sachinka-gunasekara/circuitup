@@ -1,7 +1,14 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 
 const Firmware = () => {
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
+  
   return (
     <>
     <title className=''>CircuitUp - Firmware Development</title>

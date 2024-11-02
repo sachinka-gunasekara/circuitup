@@ -38,7 +38,7 @@ const ContactForm: React.FC = () => {
       });
 
       if (res.ok) {
-        setStatus('Message Sent!');
+        setStatus('Message Sent !');
         setFormData({ name: '', email: '', subject: '', message: '' });
       } else {
         setStatus('Failed to send message. Try again.');
@@ -103,7 +103,7 @@ const ContactForm: React.FC = () => {
         >
           Send
         </button>
-        {status && <p className="mt-2 text-center text-gray-600">{status}</p>}
+        {status && <p className="mt-2 text-center text-[#bcbcbc]">{status}</p>}
       </form>
     </div>
   );

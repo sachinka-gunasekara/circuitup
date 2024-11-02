@@ -1,7 +1,14 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 
 const Pcb = () => {
+
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
+  
   return (
     <>
     <title className=''>CircuitUp - PCB Designs</title>

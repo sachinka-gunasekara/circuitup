@@ -1,4 +1,6 @@
-import React from 'react';
+"use client"
+
+import React, { useEffect } from 'react';
 
 const projects = [
   {
@@ -98,6 +100,11 @@ const projects = [
 ];
 
 const Portfolio = () => {
+  
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
+
   return (
     <>
       <title>CircuitUp - Portfolio</title>

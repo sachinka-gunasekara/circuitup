@@ -2,9 +2,10 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import Logo from '../../public/assets/logo.png';
-import Menu from '../../public/assets/menu.png';
+import Logo from '../public/assets/logo.png';
+import Menu from '../public/assets/menu.png';
 import React, { useEffect, useState } from 'react';
+import './style.css';
 
 const services = [
   { internalName: "services", displayName: "Services" },
@@ -56,7 +57,7 @@ export function Navbar() {
     >
       <div className="lg:container flex flex-wrap items-center justify-between mx-auto p-4 lg:bg-transparent bg-slate-950">
         <Link href="/" className="flex items-center">
-          <Image src={Logo} alt="Logo" width={200} height={50} />
+          <Image src={Logo} alt="Logo" width={200} height={50} className='company_logo'/>
         </Link>
         <button
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"

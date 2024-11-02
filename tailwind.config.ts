@@ -29,8 +29,8 @@ const config: Config = {
     },
     keyframes: {
       glow: {
-        '0%, 100%': { boxShadow: '0 0 15px 5px rgba(51, 180, 244, 0.5)' },
-        '50%': { boxShadow: '0 0 15px 10px rgba(51, 180, 244, 1)' },
+        '0%, 100%': { boxShadow: '0 0 50px 5px rgba(51, 180, 244, 0.5)' },
+        '50%': { boxShadow: '0 0 30px 5px rgba(51, 180, 244, 1)' },
       },
     },
     animation: {
