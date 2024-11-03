@@ -26,7 +26,7 @@ const Pcb = () => {
              <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/30"></div>
           </div>
 
-          <div className='flex justify-center w-full font-extrabold text-5xl px-5 pt-40 pb-20 text-slate-200 sm:text-7xl sm:pt-56 sm:pb-36 tracking-widest'  data-aos="zoom-in">PCB Designs</div>   
+          <div className='flex justify-center text-center w-full font-extrabold text-5xl px-5 pt-40 pb-20 text-slate-200 sm:text-7xl sm:pt-56 sm:pb-36 tracking-widest'  data-aos="zoom-in">PCB Designs</div>   
           
         </div>
     </div>

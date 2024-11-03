@@ -20,7 +20,7 @@ const AboutUs = () => {
               <span className='text-[#797fa2] tracking-widest'>CircuitUp</span>
             </div>
 
-            <div className='text-lg py-10'>
+            <div className='sm:text-2xl text-lg py-6 text-wrap px-3 text-center'>
                 Learn More About Us In Numbers
             </div>
         </div>

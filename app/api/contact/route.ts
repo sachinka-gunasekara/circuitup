@@ -23,10 +23,19 @@ export const POST = async (req: Request) => {
   try {
     await transporter.sendMail({
       from: `willo@nexvertical.com`,
-      to: `sachinka.gunasekara@gmail.com`, // Replace with your company's receiving email
+      to: `yashodha@circuitup.lk`, // Replace with your company's receiving email
       subject: subject,
       text: message,
-      html: `<div><div>${message}</div><div>sender mail :${email}</div></div> `,
+      html: `
+            <div style="font-family: Arial, sans-serif; line-height: 1.5;">
+                <div style="font-size: 14px; color: #888;">
+                    <strong>Sender:</strong> ${name} (${email})
+                </div> <br />
+                <div style="font-size: 16px; color: #555; margin-bottom: 20px;">
+                    ${message}
+                </div>
+            </div>
+        `,
     });
 
     return Response.json({ message: "Message sent successfully!" });
