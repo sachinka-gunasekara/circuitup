@@ -44,9 +44,9 @@ export default function Home() {
           </div>
           <div className="container flex flex-col absolute top-0 bottom-0 left-0 right-0 w-full h-full justify-center items-center sm:pt-0 sm:mt-20 sm:p-20 p-10">
             <div className="font-bold text-5xl pb-5 text-center lg:text-8xl" data-aos="fade-right">
-              <span className='text-[#33b4f4]'>CircuitUp</span>, Where Innovation Knows No Boundaries</div>
+              <span className='text-[#33b4f4]'>ConnectSphere</span>, Where Innovation Knows No Boundaries</div>
             <div className="text-xl leading-[2.5rem] text-center font-light" data-aos="flip-down">
-              Circuit Up takes the lead in software development by specializing in the seamless integration of hardware with IoT platforms.
+              ConnectSphere takes the lead in software development by specializing in the seamless integration of hardware with IoT platforms.
             </div>
 
             <div data-aos="zoom-in">

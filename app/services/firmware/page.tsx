@@ -11,7 +11,7 @@ const Firmware = () => {
   
   return (
     <>
-    <title className=''>CircuitUp - Firmware Development</title>
+    <title className=''>ConnectSphere - Firmware Development</title>
     <div className="relative sm:h-[65vh] h-[50vh]">
         <div className="flex flex-col justify-between items-center gap-20 sm:flex-row">
           <div className="absolute inset-0 -z-10">

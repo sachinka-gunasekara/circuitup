@@ -12,7 +12,7 @@ const Contact = () => {
       
   return (
     <>
-    <title className=''>CircuitUp - About Us</title>
+    <title className=''>ConnectSphere - About Us</title>
     <div className=''>
         <div className='bg-slate-900 flex flex-col items-center pt-40 sm:pb-20 px-10 sm:pt-56 sm:h-[65vh] h-[50vh]'>
             <div className='font-extrabold text-5xl text-center flex flex-col justify-center sm:text-7xl md:flex-row' data-aos="flip-left">
@@ -55,7 +55,7 @@ const Contact = () => {
                     </div>
                     <div className='flex flex-col'>
                         <div className='text-lg font-extrabold text-slate-300'>Email</div>
-                        <div className='text-sm text-[#bcbcbc]'>yashodha@circuitup.lk</div>
+                        <div className='text-sm text-[#bcbcbc]'>yashodha@ConnectSphere.lk</div>
                     </div>
                 </div>
 

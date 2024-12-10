@@ -11,7 +11,7 @@ const Webdev = () => {
   
   return (
     <>
-    <title className=''>CircuitUp - Web Development</title>
+    <title className=''>ConnectSphere - Web Development</title>
     <div className="relative sm:h-[65vh] h-[50vh]">
         <div className="flex flex-col justify-between items-center gap-20 sm:flex-row">
           <div className="absolute inset-0 -z-10">
@@ -37,7 +37,7 @@ const Webdev = () => {
           <div className='flex flex-col w-full lg:w-1/2'>
             <span className='text-slate-300 text-2xl font-bold'>Engineering Excellence</span>
             <span className='text-[#bcbcbc] font-light text-base pt-3'>
-            CircuitUp’s Web team is proficient in a range of languages, including PHP, JavaScript, and Python, 
+            ConnectSphere’s Web team is proficient in a range of languages, including PHP, JavaScript, and Python, 
             allowing us to adapt to your specific project requirements. Leveraging the power of popular frameworks 
             like Laravel and Node.js, we design and develop web dashboards that deliver seamless functionality and 
             exceptional performance. Our expertise extends to integrating AWS services, implementing API functionalities.

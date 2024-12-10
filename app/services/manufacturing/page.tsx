@@ -11,7 +11,7 @@ const Manufacturing = () => {
   
   return (
     <>
-    <title className=''>CircuitUp - Manufacturing</title>
+    <title className=''>ConnectSphere - Manufacturing</title>
     <div className="relative sm:h-[65vh] h-[50vh]">
         <div className="flex flex-col justify-between items-center gap-20 sm:flex-row">
           <div className="absolute inset-0 -z-10">
@@ -37,7 +37,7 @@ const Manufacturing = () => {
           <div className='flex flex-col w-full lg:w-1/2'>
             <span className='text-slate-300 text-2xl font-bold'>Engineering Excellence</span>
             <span className='text-[#bcbcbc] font-light text-base pt-3'>
-            At CircuitUp, we go above and beyond to ensure a seamless electronic development experience for our clients. 
+            At ConnectSphere, we go above and beyond to ensure a seamless electronic development experience for our clients. 
             In addition to our core services, we also offer comprehensive electronic manufacturing solutions. 
             From procurement service to box assembling, firmware loading, end product testing, and validating, 
             we take care of every step of the process. Our expertise also extends to enclosure designing, ensuring 

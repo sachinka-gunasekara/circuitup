@@ -12,7 +12,7 @@ const Desktop = () => {
 
   return (
     <>
-    <title className=''>CircuitUp - Desktop Application</title>
+    <title className=''>ConnectSphere - Desktop Application</title>
     <div className="relative sm:h-[65vh] h-[50vh]">
         <div className="flex flex-col justify-between items-center gap-20 sm:flex-row">
           <div className="absolute inset-0 -z-10">

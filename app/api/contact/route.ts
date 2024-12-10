@@ -23,7 +23,7 @@ export const POST = async (req: Request) => {
   try {
     await transporter.sendMail({
       from: `willo@nexvertical.com`,
-      to: `yashodha@circuitup.lk`, // Replace with your company's receiving email
+      to: `yashodhalakshana@gmail.com`, // Replace with your company's receiving email
       subject: subject,
       text: message,
       html: `

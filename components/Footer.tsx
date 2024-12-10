@@ -15,7 +15,8 @@ export function Footer() {
         <div className='container flex flex-wrap sm:flex-row flex-col justify-between mx-auto p-10 pb-5 '>
         <div className="flex flex-col">
             <Link href="/" className="flex items-center mb-8">
-            <Image src={Logo} alt="Logo" width={200} height={50} className='company_logo'/>
+            {/* <Image src={Logo} alt="Logo" width={200} height={50} className='company_logo'/> */}
+            <Image src={Logo} alt="Logo" width={100} height={50} className='h-12'/>
             </Link>
             <h3>Follow us on</h3>
             <div className='flex gap-3 mt-3'>
@@ -31,7 +32,7 @@ export function Footer() {
             </div>
 
             <div className='flex flex-col gap-1 text-[#a2a7b8]'>
-                <h5 className='text-base'>CircuitUp Technology,</h5>
+                <h5 className='text-base'>ConnectSphere Technology,</h5>
                 <h5 className='text-base'>12/4/D, Allubogahawatta,</h5>
                 <h5 className='text-base'>Wanduramulla,</h5>
                 <h5 className='text-base'>Panadura,</h5>

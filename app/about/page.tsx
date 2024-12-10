@@ -12,12 +12,12 @@ const AboutUs = () => {
   
   return (
     <>
-    <title className=''>CircuitUp - About Us</title>
+    <title className=''>ConnectSphere - About Us</title>
     <div className=''>
         <div className='bg-slate-900 flex flex-col items-center pt-40 pb-20 sm:pt-56 lg:h-[65vh] h-[50vh]'>
             <div className='font-extrabold text-5xl text-center flex flex-col justify-center sm:text-7xl md:flex-row' data-aos="flip-left">
               <span className='text-slate-200 pb-5 sm:pr-8 sm:pb-0 tracking-widest'>About</span>
-              <span className='text-[#797fa2] tracking-widest'>CircuitUp</span>
+              <span className='text-[#797fa2] tracking-widest'>ConnectSphere</span>
             </div>
 
             <div className='sm:text-2xl text-lg py-6 text-wrap px-3 text-center'>
@@ -26,14 +26,14 @@ const AboutUs = () => {
         </div>
         <div className='container mx-auto flex flex-col justify-between items-center p-10 sm:p-20 pb-10 text-justify text-[#bcbcbc]' data-aos="fade-up">
             <div className='text-base pb-5'>
-            CircuitUp Technologies, a dynamic startup based in the vibrant landscape of Sri Lanka, established in 2019. 
-            At CircuitUp, we take immense pride in offering top-notch turnkey electronic R&D services tailored to meet your specific needs. 
+            ConnectSphere Technologies, a dynamic startup based in the vibrant landscape of Sri Lanka, established in 2019. 
+            At ConnectSphere, we take immense pride in offering top-notch turnkey electronic R&D services tailored to meet your specific needs. 
             Our comprehensive range of services includes cutting-edge PCB designs, innovative Schematic designs, proficient firmware development, 
             PC software development, Web Dashboard solutions, and OEM services.
             </div>
 
             <div className='text-base pb-5'>
-            With a team of skilled professionals, CircuitUp possesses an array of PCB design capabilities, such as expertise in designing up to 8-layer
+            With a team of skilled professionals, ConnectSphere possesses an array of PCB design capabilities, such as expertise in designing up to 8-layer
              boards, handling high-speed designs, mastering power electronics, crafting ultra-low power devices, spearheading IoT device design, excelling 
              in wireless communication systems, and industrial applications.
 
@@ -45,7 +45,7 @@ const AboutUs = () => {
             </div>
 
             <div className='text-base	pb-5'>
-            At CircuitUp, we envision success by seamlessly bringing your ideas to life through our expertise and commitment to innovation. 
+            At ConnectSphere, we envision success by seamlessly bringing your ideas to life through our expertise and commitment to innovation. 
             We are eager to explore possibilities and embark on transformative journeys together. We look forward to the opportunity of 
             partnering with you to achieve your electronic development goals and make a positive impact on the world.
             </div>

@@ -57,7 +57,8 @@ export function Navbar() {
     >
       <div className="lg:container flex flex-wrap items-center justify-between mx-auto p-4 lg:bg-transparent bg-slate-950">
         <Link href="/" className="flex items-center">
-          <Image src={Logo} alt="Logo" width={200} height={50} className='company_logo'/>
+          {/* <Image src={Logo} alt="Logo" width={200} height={50} className='company_logo'/> */}
+          <Image src={Logo} alt="Logo" width={100} height={50} className='h-12'/>
         </Link>
         <button
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"

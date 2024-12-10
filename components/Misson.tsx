@@ -24,8 +24,8 @@ const Mission = () => {
             </div>
 
             <div className="flex-1 text-[#bcbcbc] text-base leading-[2rem]">
-                CircuitUp Technologies, a dynamic startup based in the vibrant landscape of Sri Lanka, was established in 2019. 
-                At CircuitUp, we take immense pride in offering top-notch turnkey electronic R&D services tailored to meet your specific needs. 
+                ConnectSphere Technologies, a dynamic startup based in the vibrant landscape of Sri Lanka, was established in 2019. 
+                At ConnectSphere, we take immense pride in offering top-notch turnkey electronic R&D services tailored to meet your specific needs. 
                 Our comprehensive range of services includes cutting-edge PCB designs, innovative Schematic designs, proficient firmware development, 
                 PC software development, Web Dashboard solutions, and OEM services.
             </div>
